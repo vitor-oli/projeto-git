@@ -13,4 +13,6 @@ git commit -m "nome do repositorio" -> faz o commit do repositório
 git branch -M -> muda a branch principal de "master" pra "main"
 
 git remote add origin <link> -> faz a conexão entre o repositório local e o github
- 
+
+git checkout -b "nome" -> cria uma nova branch e muda pra ela(todas as alterações nos arquivos ficam nessa branch, a não ser que vc alterne para outra branch)
+
