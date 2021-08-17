@@ -4,12 +4,13 @@ git config --global user.name "Your Name" -> define o usuario(conta) do github p
 git init-> inicia um repositório git vazio 
 -master-> branch(ramificação) principal 
 
-git add <file> -> deixa um arquivo "em espera" pro commit
+git add <file> -> deixa um arquivo "em espera" pro commit // git add . ->faz isso para todos os arquivos do repositório
 
 git status -> mostra o status do repositório
 
-git commit -m -> faz o commit do repositório
+git commit -m "nome do repositorio" -> faz o commit do repositório
 
 git branch -M -> muda a branch principal de "master" pra "main"
 
 git remote add origin <link> -> faz a conexão entre o repositório local e o github
+ 
