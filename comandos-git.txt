@@ -1,4 +1,4 @@
-git  git config --global user.email "you@example.com" -> define o email(conta) do github para todos os commits
+git config --global user.email "you@example.com" -> define o email(conta) do github para todos os commits
 git config --global user.name "Your Name" -> define o usuario(conta) do github para todos os commits
 
 git init-> inicia um repositório git vazio 
@@ -18,3 +18,4 @@ git push -u origin <branch> -> joga os commits pro github na branch em questão 
 
 git checkout -b "nome" -> cria uma nova branch e muda pra ela(todas as alterações nos arquivos ficam nessa branch, a não ser que vc alterne para outra)
 
+git checkout <branch> -> alterna para outra branch
